@@ -12,7 +12,9 @@ const app = express();
 
 // Init Middleware
 app.use(cors()); // Enable CORS for all routes
-app.use(express.json()); // For JSON payloads (extended option is not applicable here)
+app.use(express.json()); // For JSON payloads
+
+
 app.use(express.text()); // <<< ADD THIS to handle plain text bodies
 app.use(express.urlencoded({ extended: true }));
 
