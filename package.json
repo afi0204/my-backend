@@ -1,0 +1,27 @@
+{
+    "name": "digital-water-meter-backend",
+    "version": "1.0.0",
+    "description": "Backend for the digital water meter system",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "bcryptjs": "^3.0.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^4.18.2",
+        "firebase-admin": "^13.4.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^7.5.0",
+        "shortid": "^2.2.17"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    },
+    "keywords": []
+}
